@@ -1,0 +1,14 @@
+.headerfraMe {
+  height: 168;
+  background-color: #2196f3;
+}
+
+.headerCompact {
+  height: 56;
+  background-color: #2196f3
+}
+
+.title {
+  font-family: "Roboto";
+  font-size: 20;
+}
