@@ -10,5 +10,7 @@ h1 {
   color: #FFFFFF;
 }
 a.invlink {
+  font-family: 'Roboto Regular';
+  color: #FABB2D;
   position: center;
 }
