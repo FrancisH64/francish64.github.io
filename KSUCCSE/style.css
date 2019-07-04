@@ -14,6 +14,7 @@ a.invlink {
   font-size: 16px;
   color: #FABB2D;
   padding: 4px;
+  margin: auto;
 }
 div.invite {
   background-color: #323232;
@@ -21,4 +22,5 @@ div.invite {
   margin: auto;
   text-align: center;
   height: 120px;
+  width: 300px;
 }
