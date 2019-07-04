@@ -5,3 +5,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+h1 {
+  font-family: 'Roboto Regular', sans-seriff;
+  text-align: center;
+  foreground: #FFFFFF;
+}
