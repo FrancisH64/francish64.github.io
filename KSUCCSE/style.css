@@ -13,13 +13,12 @@ a.invlink {
   font-family: 'Roboto Regular';
   font-size: 16px;
   color: #FABB2D;
-  position: absolute;
-  center: center;
   padding: 4px;
 }
 div.invite {
   background-color: #323232;
   border-radius: 2px;
   margin: 8px;
+  text-align: center;
   height: 120px;
 }
