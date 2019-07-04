@@ -13,8 +13,10 @@ a.invlink {
   font-family: 'Roboto Regular';
   color: #FABB2D;
   position: center;
+  padding: 4px;
 }
 div.invite {
   background-color: #323232;
   border-radius: 2px;
+  margin: 8px;
 }
