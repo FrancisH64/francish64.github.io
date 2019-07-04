@@ -14,3 +14,7 @@ a.invlink {
   color: #FABB2D;
   position: center;
 }
+div.invite {
+  background-color: #323232;
+  border-radius: 2px;
+}
