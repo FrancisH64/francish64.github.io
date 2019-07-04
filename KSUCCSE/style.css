@@ -1,4 +1,6 @@
 body {
   background-image: url("1280_profile.jpg");
   background-color: #212121;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
