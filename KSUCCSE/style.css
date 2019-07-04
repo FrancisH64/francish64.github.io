@@ -1,12 +1,11 @@
 body {
-  background-image: url("1280_profile.jpg");
   background-color: #212121;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
 h1 {
-  font-family: 'Roboto Regular', sans-seriff;
+  font-family: 'Roboto Medium';
   text-align: center;
   foreground: #FFFFFF;
 }
