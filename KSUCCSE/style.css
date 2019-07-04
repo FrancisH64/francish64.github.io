@@ -11,6 +11,7 @@ h1 {
 }
 a.invlink {
   font-family: 'Roboto Regular';
+  font-size: 16px;
   color: #FABB2D;
   position: absolute;
   center: center;
