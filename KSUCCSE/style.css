@@ -24,3 +24,7 @@ div.invite {
   padding: 16px;
   width: 344px;
 }
+p.footnote {
+  color: #bdbdbd;
+  font-family: 'Roboto Regular';
+}
