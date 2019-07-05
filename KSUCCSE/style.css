@@ -32,3 +32,12 @@ p.footnote {
   top: 96%;
   text-align: center;
 }
+img.centerImage {
+		width: 300px;
+		height: 300px;
+		margin-left: -150px;
+		margin-top: -150px;
+		position: absolute;
+		left: 50%;
+		top: 50%;
+}
