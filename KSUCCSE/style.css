@@ -14,15 +14,15 @@ a.invlink {
   font-size: 20px;
   color: #FABB2D;
 }
-div.invite {
+div.invite { 
   position: absolute;
   left: 50%;
   top: 75%;
-  margin-left: -172px;
+  margin-left: -142px;
   background-color: #323232;
   border-radius: 2px;
   padding: 16px;
-  width: 344px;
+  width: auto;
 }
 p.footnote {
   color: #bdbdbd;
