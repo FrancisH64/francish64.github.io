@@ -27,6 +27,7 @@ div.invite {
 p.footnote {
   color: #bdbdbd;
   font-family: 'Roboto Regular';
+  font-size: 14px;
   position: absolute;
   top: 96%;
 }
