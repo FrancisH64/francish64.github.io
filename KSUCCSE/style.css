@@ -26,10 +26,8 @@ div.invite {
 }
 p.footnote {
   color: #bdbdbd;
-  font-family: 'Roboto Regular', 'Arial';
-  font-size: 14px;
-  position: absolute;
-  top: 96%;
+  margin-top: 46.5%;
+  font-family: 'Roboto Regular';
   text-align: center;
 }
 img.centerImage {
