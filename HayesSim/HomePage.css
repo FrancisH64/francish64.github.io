@@ -132,3 +132,21 @@ ul {
     justify-content: center;
 
 }
+
+.sticky {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.header {
+    height: 56px;
+}
+
+.content {
+    padding: 12px;
+  }
+
+.sticky + .content {
+    padding-top: 102px;
+  }
