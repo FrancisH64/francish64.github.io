@@ -60,6 +60,7 @@ h3 {
     font-weight: 60;
     opacity: 0.6;
     color: white;
+    padding-bottom: 18px;
 }
 
 .par {
@@ -133,19 +134,29 @@ ul {
 
 }
 
-.sticky {
-    position: fixed;
-    top: 0px;
-    width: 100%;
-}
-
 .header {
     height: 56px;
+    /*background-color: #323232;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subheader {
+    height: 48px;
+    /*background-color: #434343;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content {
-    padding: 12px;
+    padding: 0px;
   }
+
+.sticky {
+    position: fixed;
+}
 
 .sticky + .content {
     padding-top: 102px;
