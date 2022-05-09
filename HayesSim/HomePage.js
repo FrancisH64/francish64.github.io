@@ -10,7 +10,7 @@ function OnScroll() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
     var scrolled = (winScroll / height) * 100;
-    if (window.pageYOffset > sticky) {
+    if (window.scrollY > sticky && window.scrollY < sticky2) {
         header.classList.add("sticky");
         header.classList.add("shadow");
     } else {
@@ -20,7 +20,6 @@ function OnScroll() {
     if (window.pageYOffset > sticky2) {
         header2.classList.add("sticky");
         header2.classList.add("shadow");
-        header.classList.remove("shadow");
     } else {
         header2.classList.remove("sticky");
         header2.classList.remove("shadow");
