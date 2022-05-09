@@ -24,7 +24,6 @@ function OnScroll() {
     } else {
         header2.classList.remove("sticky");
         header2.classList.remove("shadow");
-        header.classList.add("shadow");
     }
     if (scrolled == 100) {
         footer.classList.remove("bottom-shadow");
