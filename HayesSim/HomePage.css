@@ -217,6 +217,12 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #424242;
+    margin: 12px auto 12px;
+    display: flex;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    max-width: 600px;
 }
 
 .sticky {
@@ -232,3 +238,20 @@ ul {
 .bottom-shadow{
     box-shadow: 4px 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
+
+/*.column {
+    float: left;
+    width: 50%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width: 720px) {
+    .column {
+      width: 100%;
+    }
+  }*/
