@@ -1,0 +1,11 @@
+{
+    "name": "Hayes Simulations",
+    "short_name": "HayesSim",
+    "start_url": "https://hayess.me/HayesSim/HomePage.html",
+    "display": "standalone",
+    "icons": [{
+        "src": "Resources/Images/Hayes Simulations-01.png",
+        "sizes": "4096x4096",
+        "type": "image/png"
+    }]
+}
