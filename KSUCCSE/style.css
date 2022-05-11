@@ -1,42 +1,15 @@
-body {
-  background-color: #212121;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+.headerfraMe {
+  height: 168;
+  background-color: #2196f3;
 }
-h1 {
-  font-family: 'Roboto Regular', 'Arial';
-  text-align: center;
-  color: #FFFFFF;
+
+.headerCompact {
+  height: 56;
+  background-color: #2196f3
 }
-a.invlink {
-  font-family: 'Roboto Medium', 'Arial';
-  font-size: 20px;
-  color: #FABB2D;
-}
-div.invite { 
-  position: absolute;
-  left: 50%;
-  top: 75%;
-  margin-left: -142px;
-  background-color: #323232;
-  border-radius: 2px;
-  padding: 16px;
-  width: auto;
-}
-p.footnote {
-  color: #bdbdbd;
-  margin-top: 46.5%;
-  font-family: 'Roboto Regular';
-  text-align: center;
-  font-size: 14px;
-}
-img.centerImage {
-		width: 300px;
-		height: 300px;
-		margin-left: -150px;
-		margin-top: -150px;
-		position: absolute;
-		left: 50%;
-		top: 50%;
+
+.title {
+  font-family: "Roboto";
+  font-size: 20;
+  color: "#ffffff";
 }
