@@ -1,7 +1,7 @@
 {
     "name": "Hayes Simulations",
     "short_name": "HayesSim",
-    "start_url": "https://hayess.me/HayesSim/HomePage.html",
+    "start_url": "https://hayessim.com",
     "display": "standalone",
     "icons": [{
         "src": "Resources/Images/Hayes Simulations-01.png",
