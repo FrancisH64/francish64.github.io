@@ -239,6 +239,17 @@ ul {
     box-shadow: 4px 4px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+.TopMessage {
+    position: fixed;
+    font-family: 'Sailec', Arial, sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+    margin-left: 12px;
+    font-size: 12px;
+    font-weight: 50;
+    top: 0;
+    left: 0;
+}
+
 /*.column {
     float: left;
     width: 50%;
