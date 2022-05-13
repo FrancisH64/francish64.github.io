@@ -11,6 +11,7 @@ fetch('https:///api.linkpreview.net', {
     method: 'POST',
     mode: 'cors',
     body: JSON.stringify(data)
+    fields: {image_size}
 }).then(res => {
     if (res.status != 200) {
         console.log(res.status)
