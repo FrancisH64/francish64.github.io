@@ -84,11 +84,9 @@ h3 {
 
 .subdivider {
     height: 2px;
-    opacity: 0.4;
-    background-color: white;
-    margin-top: 12px;
-    margin-left: 48px;
-    margin-right: 48px;
+    background: rgba(255, 255, 255, 0.2);
+    margin-left: 12px;
+    margin-right: 12px;
 }
 
 .subtitle {
@@ -109,8 +107,9 @@ h3 {
     opacity: 1;
     color: white;
     margin-bottom: 8px;
+    margin-top: 0px;
     padding-bottom: 0px;
-    margin-top: 12px;
+    padding-top: 12px;
 }
 
 .sublabel {
@@ -124,7 +123,8 @@ h3 {
 }
 
 .container {
-    margin-left: 16px;
+    width: 100%;
+    padding-bottom: 12px;
 }
 
 .card-container {
@@ -213,16 +213,10 @@ ul {
 
 .subheader {
     height: 48px;
-    /*background-color: #434343;*/
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #424242;
-    margin: 12px auto 12px;
-    display: flex;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    max-width: 600px;
+    width: 100%;
 }
 
 .sticky {
@@ -248,6 +242,16 @@ ul {
     font-weight: 50;
     top: 0;
     left: 0;
+}
+
+.list {
+    width: 100%;
+}
+
+.listItem {
+    margin: 0;
+    min-height: 72px;
+    margin-left: 12px;
 }
 
 /*.column {
