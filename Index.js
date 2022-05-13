@@ -6,6 +6,15 @@ var footer = document.getElementById("ft")
 var sticky = header.offsetTop;
 var sticky2 = header2.offsetTop
 
+var target = 'https://hayessim.com';
+$.ajax({
+    url: "https://api.linkpreview.net",
+    dataType: 'jsonp',
+    data: {q: target, key: 6027d4a1dbb961e25897824c1aca7489},
+    
+})
+
+
 function OnScroll() {
     var winScroll = document.body.scrollTop || document.documentElement.scrollTop;
     var height = document.documentElement.scrollHeight - document.documentElement.clientHeight;
