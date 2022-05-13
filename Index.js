@@ -7,7 +7,7 @@ var sticky = header.offsetTop;
 var sticky2 = header2.offsetTop;
 
 var data = {key: '6027d4a1dbb961e25897824c1aca7489', q: 'https://hayessim.com'}
-fetch('https:///api.linkpreview.net/?key=6027d4a1dbb961e25897824c1aca7489&fields&image_size', {
+fetch('https:///api.linkpreview.net/?key=6027d4a1dbb961e25897824c1aca7489&fields&image_size,icon_type,locale$q=https://hayessim.com', {
     method: 'POST',
     mode: 'cors',
     body: JSON.stringify(data)
