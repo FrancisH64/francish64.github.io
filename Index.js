@@ -2,9 +2,11 @@ window.onscroll = function() {OnScroll()};
 
 var header = document.getElementById("hd");
 var header2 = document.getElementById("hd2");
-var footer = document.getElementById("ft")
+var header3 = document.getElementById("hd3");
+var footer = document.getElementById("ft");
 var sticky = header.offsetTop;
 var sticky2 = header2.offsetTop;
+var sticky3 = header3.offsetTop;
 
 var data = {key: '6027d4a1dbb961e25897824c1aca7489', q: 'https://hayessim.com'}
 fetch('https:///api.linkpreview.net/?key=6027d4a1dbb961e25897824c1aca7489&fields&image_size,icon_type,locale$q=https://hayessim.com', {
@@ -40,6 +42,13 @@ function OnScroll() {
     } else {
         header2.classList.remove("sticky");
         header2.classList.remove("shadow");
+    }
+    if (window.pageYOffset > sticky3) {
+        header3.classList.add("sticky");
+        header3.classList.add("shadow");
+    } else {
+        header3.classList.remove("sticky");
+        header3.classList.remove("shadow");
     }
     if (scrolled == 100) {
         footer.classList.remove("bottom-shadow");
